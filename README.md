@@ -7,6 +7,7 @@ Application was build to storage data from horro movies and rank them by their s
 
 ## This app features
 - [x] Own database for restoring data.
+- [x] User authentication using JWT.
 - [x] Backend to prevent data loss.
 - [x] Caching data for few minutes to improve the apps efficiency.
 - [x] Updating the data and inserting new data if it doesnt already exist in the database.
