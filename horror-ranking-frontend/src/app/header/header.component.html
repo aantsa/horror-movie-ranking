@@ -1,0 +1,21 @@
+<nav class="navbar navbar-light bg-dark navbar-expand-lg">
+  <a href="#" class="navbar-brand" style="color: rgb(255, 255, 255);" routerLink='/' routerLinkActive='active'>Horror
+    Ranking</a>
+  <button class="navbar-toggler" type='button' data-toggle='collapse' data-target='#collapse_target'
+    aria-controls="collapse_target" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id='collapse_target'>
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" style="cursor: pointer; color: white;" role="button"
+          aria-haspopup="true" aria-expanded="false">Profile</a>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a *ngIf="!isAuthenticated" class='nav-item nav-link' routerLink='/auth' style="cursor:pointer">Login </a>
+          <a *ngIf="isAuthenticated" class='nav-item nav-link' routerLink='/' style="cursor:pointer"
+            (click)="onLogOut()">Logout </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
