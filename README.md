@@ -6,7 +6,7 @@ The commits were made in Azure (which was a demand from the course leader.
 This repository contains both front- and backend.
 Frontend was made with Angular and backend with Node.js.
 
-Application was build to storage data from horro movies and rank them by their subcategories as for now which are spookiness, gore and suspense.
+Application was build to storage data from horror movies and rank them by their subcategories as for now which are spookiness, gore and suspense.
 
 ## This app features
 - [x] Own database for restoring data.
